@@ -1,0 +1,83 @@
+body {
+    background-color:#03624c;
+}
+#bookingForm {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    width: 100%;
+    margin-top: 70px;
+    max-width: 700px;
+    border-left: 5px solid #afd757;
+    color: #000000;
+    text-align: center;
+    margin: 0 auto; /* Centers the form horizontally */
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    color: #000000;
+    display: block;
+}
+
+.form-row {
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-left: -10px;
+}
+
+input[type="date"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #03624c;
+    border-radius: 5px;
+    outline: none;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+    color: #03624c;
+    font-weight: bold;
+}
+
+input[type="date"]::placeholder {
+    color: #03624c;
+}
+
+button {
+    background-color: #03624c;
+    color: #FFFAEC;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #FBFFE4;
+    color: #1B4D3E;
+}
+
+.message-box {
+    color: #03624c;
+    border-radius: 5px;
+}
+.loading {
+    color: blue;
+}
+.error {
+    color: #03624c;
+}
+#proceedToReservation {
+    padding: 8px 12px;
+    background: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}

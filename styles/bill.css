@@ -1,0 +1,91 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #e9f5ec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Bill Container */
+.bill-container {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    max-width: 450px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+/* Decorative Divider */
+.divider {
+    height: 3px;
+    background: #2b7a4b;
+    width: 50px;
+    margin: 10px auto;
+}
+
+/* Title Styling */
+h2 {
+    color: #2b7a4b;
+    margin-bottom: 10px;
+}
+
+/* Bill Details */
+.bill-content {
+    text-align: left;
+    margin: 20px 0;
+    font-size: 16px;
+}
+
+.bill-content p {
+    background: #f3f8f4;
+    padding: 10px;
+    border-radius: 6px;
+    margin: 5px 0;
+}
+
+/* Payment Status */
+.status {
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.status.paid {
+    color: white;
+    background: #4CAF50;
+}
+
+.status.pending {
+    color: white;
+    background: #FFA500;
+}
+
+/* Button */
+.btn {
+    background: #2b7a4b;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #1e5c38;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+    .bill-container {
+        max-width: 90%;
+    }
+}

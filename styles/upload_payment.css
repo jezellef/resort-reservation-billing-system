@@ -1,0 +1,123 @@
+/* General Page Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #e9f5ec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Payment Container */
+.payment-container {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    max-width: 450px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+/* Decorative Divider */
+.divider {
+    height: 3px;
+    background: #2b7a4b;
+    width: 50px;
+    margin: 10px auto;
+}
+
+/* Title Styling */
+h2 {
+    color: #2b7a4b;
+    margin-bottom: 10px;
+}
+
+/* Amount Due Styling */
+.amount {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    background: #f3f8f4;
+    padding: 10px;
+    border-radius: 6px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+/* File Upload Section */
+.file-upload {
+    background: #f3f8f4;
+    padding: 15px;
+    border-radius: 6px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.file-label {
+    display: block;
+    background: #2b7a4b;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.file-label:hover {
+    background: #1e5c38;
+}
+
+/* Hide the actual file input */
+input[type="file"] {
+    display: none;
+}
+
+/* File Name Display */
+#file-name {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+/* Image Preview */
+#image-preview {
+    max-width: 100%;
+    max-height: 200px;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+/* Hide the actual file input */
+input[type="file"] {
+    display: none;
+}
+
+/* Submit Button */
+.btn {
+    background: #2b7a4b;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.3s;
+    width: 100%;
+}
+
+.btn:hover {
+    background: #1e5c38;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+    .payment-container {
+        max-width: 90%;
+    }
+}

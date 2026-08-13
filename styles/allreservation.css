@@ -1,0 +1,301 @@
+  .room-info {
+            font-size: 0.9em;
+            color: #666;
+            margin-top: 5px;
+        }
+        .room-tag {
+            background-color: #e9f4ff;
+            border: 1px solid #bee5eb;
+            border-radius: 3px;
+            padding: 2px 6px;
+            margin: 2px;
+            display: inline-block;
+            font-size: 0.8em;
+        }
+        .room-details-modal {
+            max-height: 200px;
+            overflow-y: auto;
+        }
+        .availability-check {
+            background-color: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        .conflict-warning {
+            color: #721c24;
+            background-color: #f8d7da;
+            border: 1px solid #f5c6cb;
+            border-radius: 3px;
+            padding: 5px;
+            margin: 5px 0;
+            font-size: 0.9em;
+        }
+        
+        /* Desktop table layout */
+        #reservationsTable {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+        }
+        
+        #reservationsTable th,
+        #reservationsTable td {
+            padding: 12px 8px;
+            text-align: left;
+            vertical-align: middle;
+            border-bottom: 1px solid #e3e6f0;
+        }
+        
+        #reservationsTable th {
+            background-color: #f8f9fc;
+            font-weight: 600;
+            color: #5a5c69;
+        }
+        
+        .search-container {
+            margin-bottom: 20px;
+        }
+        
+        .search-container input[type="text"] {
+            padding: 8px 12px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            width: 300px;
+        }
+        
+        .search-container button {
+            padding: 8px 16px;
+            margin-left: 10px;
+        }
+        
+        /* Mobile specific adjustments for modals */
+        @media screen and (max-width: 768px) {
+            .search-container input[type="text"] {
+                width: 100%;
+                margin-bottom: 10px;
+            }
+            
+            .search-container button {
+                width: 100%;
+                margin: 5px 0;
+            }
+            
+            .modal-content {
+                width: 95% !important;
+                margin: 10% auto !important;
+                padding: 15px !important;
+            }
+            
+            .dashboard-title {
+                font-size: 1.5rem !important;
+            }
+        }
+        .status-approved {
+            color: #28a745;
+            font-weight: bold;
+        }
+        
+        .status-rejected {
+            color: #dc3545;
+            font-weight: bold;
+        }
+        
+        .rescheduled {
+            color: #ef6c00;
+        }
+        
+        .dashboard-title {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            color: #2c3e50;
+            position: relative;
+            padding-bottom: 10px;
+        }
+        
+        .dashboard-title:after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            height: 4px;
+            width: 370px;
+            background: linear-gradient(to right, #3498db, #1abc9c);
+        }
+        
+        /* Modal specific to reservations */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0,0,0,0.5);
+        }
+        
+        .modal-content {
+            background-color: #fefefe;
+            margin: 5% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+            max-width: 600px;
+            border-radius: 5px;
+            border-top: 5px solid #2e7d32;
+        }
+        
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        
+        .close:hover,
+        .close:focus {
+            color: #000;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        
+        .form-group {
+            margin-bottom: 15px;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        
+        .form-group input[type="date"] {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        
+        .details-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        
+        .details-row {
+            margin-bottom: 10px;
+        }
+        
+        .details-label {
+            font-weight: bold;
+            color: #555;
+            margin-bottom: 3px;
+        }
+        
+        .details-value {
+            color: #333;
+        }
+        
+        .details-modal-content {
+            max-width: 900px;
+            width: 90%;
+        }
+        
+        .modal-title {
+            color: #2e7d32;
+            margin-top: 0;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e0e0e0;
+        }
+        
+        .action-btn {
+            padding: 6px 10px;
+            font-size: 14px;
+        }
+        
+        /* Mobile adjustments for modals */
+        @media screen and (max-width: 768px) {
+            .modal-content {
+                width: 95%;
+                margin: 10% auto;
+                padding: 15px;
+            }
+            
+            .details-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .dashboard-title:after {
+                width: 250px;
+            }
+        }
+        /* Fix button text colors for visibility */
+        .btn-secondary {
+            color: #000 !important; /* Black text */
+            border: 1px solid #6c757d;
+        }
+        
+        .btn-secondary:hover {
+            color: #000 !important;
+        }
+        
+        /* For the cancel button in modals */
+        .modal-content .btn-secondary,
+        .modal-content button[onclick*="close"] {
+            color: #000 !important;
+        }
+        
+        /* Make sure all buttons in modals have visible text */
+        .modal .btn {
+            color: #fff;
+        }
+        
+        .modal .btn-secondary {
+            color: #000 !important;
+        }
+        /* Fix Reschedule button text color */
+        .action-btn {
+            color: #000 !important; /* Black text for action buttons */
+        }
+        
+        .btn.action-btn {
+            background-color: #007bff;
+            color: #fff !important; /* White text for primary Reschedule button */
+        }
+        
+        .btn.btn-secondary.action-btn {
+            background-color: #007bff;
+            color: #fff !important; /* Black text for Details button */
+        }
+        /* Fix Confirm Rescheduling button text color */
+        .modal-content .btn[type="submit"] {
+            background-color: #28a745;
+            color: #fff !important; /* White text */
+        }
+        
+        .modal-content .btn[type="submit"]:hover {
+            background-color: #218838;
+            color: #fff !important;
+        }
+        /* Better touch targets for mobile */
+        @media screen and (max-width: 768px) {
+            .action-btn {
+                padding: 10px 15px;
+                font-size: 16px;
+                min-height: 44px; /* iOS recommended minimum */
+                margin: 5px;
+            }
+            
+            .close {
+                font-size: 36px;
+                padding: 10px;
+                min-width: 44px;
+                min-height: 44px;
+            }
+        }

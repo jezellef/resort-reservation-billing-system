@@ -1,0 +1,483 @@
+ form {
+            margin-bottom: 10px;
+            display: inline-block;
+        }
+        form input[type="text"] {
+            padding: 6px;
+            width: 250px;
+            margin-right: 10px;
+        }
+        form button {
+            padding: 6px 12px;
+            background-color: #2196F3;
+            color: white;
+            border: none;
+            border-radius: 4px;
+        }
+        form button:hover {
+            background-color: #1976D2;
+        }
+        a.back-button {
+            padding: 6px 12px;
+            background-color: #f44336;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-left: 10px;
+        }
+        a.back-button:hover {
+            background-color: #d32f2f;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        button {
+            font-weight: bold;
+            font-size: 14px;
+            padding: 6px 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.1s;
+            margin: 10px 0;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        button:disabled {
+            background-color: gray;
+            cursor: not-allowed;
+        }
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 100;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0,0,0,0.6);
+        }
+        .modal-content {
+            background-color: #fefefe;
+            margin: 10% auto;
+            padding: 30px;
+            border: 1px solid #888;
+            width: 500px;
+            text-align: center;
+            border-radius: 10px;
+            position: relative;
+        }
+        .modal-content h2 {
+            margin-bottom: 10px;
+        }
+        .modal-content button {
+            margin: 10px;
+        }
+        .close {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            color: #aaa;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .close:hover {
+            color: black;
+        }
+        .filter-buttons {
+            margin: 15px 0;
+        }
+        .filter-button {
+            padding: 8px 16px;
+            background-color: #e0e0e0;
+            border: none;
+            border-radius: 4px;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+        .filter-button.active {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .damage-form {
+            text-align: left;
+            margin: 15px 0;
+        }
+        .damage-form label {
+            display: block;
+            margin: 10px 0;
+        }
+        .damage-form textarea {
+            width: 100%;
+            height: 100px;
+            padding: 8px;
+            margin-top: 5px;
+        }
+        .summary-section {
+            margin-top: 30px;
+            border-top: 1px solid #ddd;
+            padding-top: 20px;
+        }
+        .current-checkins {
+            margin-top: 50px;
+            border-top: 2px solid #4CAF50;
+            padding-top: 20px;
+        }
+        .warning {
+            color: #d32f2f;
+            font-weight: bold;
+        }
+        .info-box {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 5px;
+        }
+        .past-date {
+            color: #999;
+            font-style: italic;
+            background-color: #f9f9f9;
+        }
+        .alert {
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 1px solid transparent;
+            border-radius: 4px;
+        }
+        .alert-danger {
+            color: #721c24;
+            background-color: #f8d7da;
+            border-color: #f5c6cb;
+        }
+        .alert-success {
+            color: #155724;
+            background-color: #d4edda;
+            border-color: #c3e6cb;
+        }
+        
+        /* Success Modal Styles */
+        .success-modal {
+            display: none;
+            position: fixed;
+            z-index: 200;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0,0,0,0.5);
+        }
+        
+        .success-modal-content {
+            background-color: #fff;
+            margin: 15% auto;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            width: 400px;
+            text-align: center;
+            animation: slideDown 0.5s ease;
+        }
+        
+        @keyframes slideDown {
+            from {
+                transform: translateY(-50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+        
+        .success-icon {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 20px;
+            border-radius: 50%;
+            background-color: #4CAF50;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .success-icon svg {
+            width: 50px;
+            height: 50px;
+            fill: white;
+        }
+        
+        .success-title {
+            color: #4CAF50;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        
+        .success-message {
+            font-size: 16px;
+            margin-bottom: 20px;
+            color: #666;
+        }
+        
+        .success-button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        
+        .success-button:hover {
+            background-color: #45a049;
+        }
+        
+        
+        
+        /* Delete Button Styles */
+        .delete-btn {
+            background-color: #dc3545;
+            margin-left: 5px;
+        }
+        .delete-btn:hover {
+            background-color: #c82333;
+        }
+        
+        .warning-box {
+            background-color: #f8d7da; 
+            border: 1px solid #f5c6cb; 
+            padding: 15px; 
+            margin: 15px 0; 
+            border-radius: 5px; 
+            text-align: left;
+        }
+        
+        
+        /* Payment Form Styles */
+        .payment-form, .payment-summary, .damage-section, .additional-section, .final-billing {
+            margin: 15px 0;
+            padding: 15px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .payment-summary {
+            background-color: #e8f5e9;
+        }
+
+        .final-billing {
+            background-color: #ede7f6;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        
+
+        .form-group input[type="number"],
+        .form-group input[type="text"],
+        .form-group select {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        .form-group textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            height: 80px;
+        }
+
+        .action-button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-right: 10px;
+        }
+
+        .cancel-button {
+            background-color: #f44336;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .action-button:hover {
+            background-color: #45a049;
+        }
+
+        .cancel-button:hover {
+            background-color: #d32f2f;
+        }
+
+        /* Payment history section */
+        .payment-history {
+            margin-top: 20px;
+        }
+
+        .payment-history h3 {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+        }
+
+        .payment-history-item {
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            margin-bottom: 10px;
+            background-color: #fff;
+        }
+
+        .payment-history-item p {
+            margin: 5px 0;
+        }
+
+        .payment-method-cash {
+            color: #4CAF50;
+        }
+
+        .payment-method-card {
+            color: #2196F3;
+        }
+
+        .payment-method-transfer {
+            color: #9C27B0;
+        }
+
+        .payment-method-gcash {
+            color: #3F51B5;
+        }
+        
+        .status-paid {
+            color: #4CAF50;
+            font-weight: bold;
+        }
+        
+        .status-partial {
+            color: #FF9800;
+            font-weight: bold;
+        }
+        
+        .action-container {
+            display: flex;
+            gap: 5px;
+        }
+        
+        .view-btn {
+            background-color: #2196F3;
+        }
+        
+        .view-btn:hover {
+            background-color: #0b7dda;
+        }
+        .dashboard-title {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            color: #2c3e50;
+            position: relative;
+            padding-bottom: 10px;
+        }
+        .dashboard-title:after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            height: 4px;
+            width: 480px;
+            background: linear-gradient(to right, #3498db, #1abc9c);
+            border-radius: 2px;
+        }
+        .action-button.not-today {
+            background-color: #ffc107;
+            color: #212529;
+            border-color: #ffc107;
+        }
+        
+        .action-button.not-today:hover {
+            background-color: #e0a800;
+            border-color: #d39e00;
+        }
+        
+        /* Enhanced warning box styling */
+        .warning-box {
+            background-color: #f8d7da;
+            border: 1px solid #f5c6cb;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 15px 0;
+        }
+        
+        .warning-box .warning {
+            color: #721c24;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+        
+        /* Form input validation styling */
+        .form-group input:disabled,
+        .form-group select:disabled,
+        .form-group textarea:disabled {
+            background-color: #e9ecef;
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+        
+        .form-group small {
+            display: block;
+            margin-top: 5px;
+            font-size: 0.875em;
+        }
+        
+        /* Button disabled state */
+        .action-button:disabled {
+            background-color: #6c757d;
+            border-color: #6c757d;
+            cursor: not-allowed;
+            opacity: 0.6;
+        }
+        .action-button.delete-btn {
+            background-color: #dc3545;
+            color: white;
+        }
+        
+        .action-button.delete-btn:hover {
+            background-color: #c82333;
+        }

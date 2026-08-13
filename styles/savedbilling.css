@@ -1,0 +1,257 @@
+  body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .saved-container {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            padding: 30px;
+            text-align: center;
+        }
+        .success-message {
+            background-color: #d4edda;
+            color: #155724;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .reservation-details {
+            background-color: #f9f9f9;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+            text-align: left;
+        }
+        .expiration-info {
+            background-color: #fff3cd;
+            color: #856404;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .countdown-timer {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #dc3545;
+            margin: 10px 0;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            text-align: center;
+            margin: 10px 5px;
+            transition: all 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+            color: white;
+            text-decoration: none;
+        }
+        .btn-secondary {
+            background-color: #6c757d;
+        }
+        .btn-secondary:hover {
+            background-color: #545b62;
+        }
+        .btn-home {
+            background-color: #17a2b8;
+            margin-right: 10px;
+        }
+        .btn-home:hover {
+            background-color: #138496;
+        }
+        .reservation-code {
+            background-color: #f0f0f0;
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin: 15px 0;
+            text-align: center;
+            font-weight: bold;
+            letter-spacing: 2px;
+            font-size: 1.2em;
+        }
+        .fees-section {
+            background-color: #f5f5f5;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 15px 0;
+            text-align: left;
+        }
+        .fees-grid {
+            display: grid;
+            grid-template-columns: 3fr 1fr;
+            gap: 8px;
+            align-items: center;
+        }
+        .total-row {
+            border-top: 1px solid #ddd;
+            margin-top: 10px;
+            padding-top: 10px;
+            font-weight: bold;
+        }
+        .room-details {
+            background-color: #f9f9f9;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 15px 0;
+            text-align: left;
+        }
+        .room-item {
+            padding: 8px 0;
+            border-bottom: 1px dashed #ddd;
+        }
+        .room-item:last-child {
+            border-bottom: none;
+        }
+        .entrance-fee-note {
+            background-color: #fff3cd;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 15px 0;
+            text-align: left;
+        }
+        .entrance-fee-note h4 {
+            margin-top: 0;
+            color: #856404;
+        }
+        .entrance-fee-note ul {
+            margin-bottom: 0;
+        }
+        .status-badge {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.875em;
+            font-weight: bold;
+        }
+        .status-pending {
+            background-color: #fff3cd;
+            color: #856404;
+        }
+        .status-approved {
+            background-color: #d4edda;
+            color: #155724;
+        }
+        .status-paid {
+            background-color: #d4edda;
+            color: #155724;
+        }
+        .status-partial {
+            background-color: #cce5ff;
+            color: #004085;
+        }
+        .debug-info {
+            background-color: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 4px;
+            padding: 10px;
+            margin: 10px 0;
+            font-size: 12px;
+            color: #6c757d;
+        }
+        
+        /* Enhanced continue booking section styles */
+        .continue-booking-section {
+            margin-top: 30px;
+            padding: 25px;
+            background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+            border-radius: 12px;
+            text-align: center;
+            color: white;
+            box-shadow: 0 8px 25px rgba(40, 167, 69, 0.3);
+        }
+
+        .continue-booking-section h3 {
+            margin-bottom: 10px;
+            color: white;
+            font-size: 1.4em;
+        }
+
+        .continue-booking-section p {
+            margin-bottom: 20px;
+            opacity: 0.9;
+            font-size: 1.05em;
+        }
+
+        .continue-btn {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #155724;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(21, 87, 36, 0.4);
+            border: none;
+            cursor: pointer;
+        }
+
+        .continue-btn:hover {
+            background-color: #0f4419;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(21, 87, 36, 0.5);
+            color: white;
+            text-decoration: none;
+        }
+
+        .continue-btn:active {
+            transform: translateY(0);
+        }
+        
+        /* Status-based styling for continue button */
+        .status-saved .continue-btn {
+            background-color: #155724;
+        }
+        
+        .status-saved .continue-btn:hover {
+            background-color: #0f4419;
+        }
+        
+        .status-pending .continue-btn {
+            background-color: #155724;
+            color: white;
+        }
+        
+        .status-pending .continue-btn:hover {
+            background-color: #0f4419;
+            color: white;
+        }
+        
+        .logo-container {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .logo-container img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            border: 3px solid #ddd;
+            background-color: #f8f9fa;
+            padding: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        
+        .continue-booking-logo {
+            margin-bottom: 15px;
+        }
+        
+        .continue-booking-logo img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            border: 3px solid rgba(255, 255, 255, 0.3);
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 8px;
+        }

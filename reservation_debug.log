@@ -1,0 +1,934 @@
+[2025-03-25 10:04:50] Incoming POST Data: Array
+(
+    [check_in] => 2025-03-26
+    [check_out] => 2025-03-27
+    [first_name] => Mark
+    [last_name] => Portugal
+    [email] => ayk.ex@yahoo.com
+    [contact_number] => 09876524355
+    [guest_adult] => 32
+    [guest_kid] => 12
+    [special_requests] => 
+)
+
+[2025-03-25 10:04:50] Session data prepared: Array
+(
+    [reservation_code] => RES-E4E8C796
+    [user_id] => 
+    [first_name] => Mark
+    [last_name] => Portugal
+    [name] => Mark Portugal
+    [email] => ayk.ex@yahoo.com
+    [contact_number] => 09876524355
+    [check_in_date] => 2025-03-26
+    [check_out_date] => 2025-03-27
+    [guest_adult] => 32
+    [guest_kid] => 12
+    [special_requests] => 
+    [add_ons] => 
+)
+
+[2025-03-25 10:04:50] Session contents before redirect: Array
+(
+    [check_in] => 2025-03-26
+    [check_out] => 2025-03-27
+    [temp_reservation] => Array
+        (
+            [reservation_code] => RES-E4E8C796
+            [user_id] => 
+            [first_name] => Mark
+            [last_name] => Portugal
+            [name] => Mark Portugal
+            [email] => ayk.ex@yahoo.com
+            [contact_number] => 09876524355
+            [check_in_date] => 2025-03-26
+            [check_out_date] => 2025-03-27
+            [guest_adult] => 32
+            [guest_kid] => 12
+            [special_requests] => 
+            [add_ons] => 
+        )
+
+)
+
+[2025-03-25 10:08:52] Incoming POST Data: Array
+(
+    [check_in] => 2025-03-26
+    [check_out] => 2025-03-27
+    [first_name] => Keith
+    [last_name] => Caceres
+    [email] => ayk.ex@yahoo.com
+    [contact_number] => 09485537455
+    [guest_adult] => 32
+    [guest_kid] => 12
+    [special_requests] => 
+)
+
+[2025-03-25 10:08:52] Session data prepared: Array
+(
+    [reservation_code] => RES-F554FDA2
+    [user_id] => 
+    [first_name] => Keith
+    [last_name] => Caceres
+    [name] => Keith Caceres
+    [email] => ayk.ex@yahoo.com
+    [contact_number] => 09485537455
+    [check_in_date] => 2025-03-26
+    [check_out_date] => 2025-03-27
+    [guest_adult] => 32
+    [guest_kid] => 12
+    [special_requests] => 
+    [add_ons] => 
+)
+
+[2025-03-25 10:08:52] Session contents before redirect: Array
+(
+    [check_in] => 2025-03-26
+    [check_out] => 2025-03-27
+    [temp_reservation] => Array
+        (
+            [reservation_code] => RES-F554FDA2
+            [user_id] => 
+            [first_name] => Keith
+            [last_name] => Caceres
+            [name] => Keith Caceres
+            [email] => ayk.ex@yahoo.com
+            [contact_number] => 09485537455
+            [check_in_date] => 2025-03-26
+            [check_out_date] => 2025-03-27
+            [guest_adult] => 32
+            [guest_kid] => 12
+            [special_requests] => 
+            [add_ons] => 
+        )
+
+)
+
+[2025-03-25 10:55:11] Incoming POST Data: Array
+(
+    [check_in] => 2025-03-26
+    [check_out] => 2025-03-27
+    [first_name] => Keith
+    [last_name] => Caceres
+    [email] => ayk@yahoo.com
+    [contact_number] => 09374583254
+    [adult_count] => 18
+    [kid_count] => 12
+    [tour_type] => day_tour
+    [special_requests] => 
+)
+
+[2025-03-25 10:55:11] Missing required field: guest_adult
+[2025-03-25 10:55:11] All POST data: Array
+(
+    [check_in] => 2025-03-26
+    [check_out] => 2025-03-27
+    [first_name] => Keith
+    [last_name] => Caceres
+    [email] => ayk@yahoo.com
+    [contact_number] => 09374583254
+    [adult_count] => 18
+    [kid_count] => 12
+    [tour_type] => day_tour
+    [special_requests] => 
+)
+
+[2025-03-25 10:55:11] Reservation preparation error: Missing required field: guest_adult
+[2025-03-25 14:32:16] Incoming POST Data: Array
+(
+    [check_in] => 2025-03-26
+    [check_out] => 2025-03-27
+    [first_name] => Ike Diezel
+    [last_name] => Narciso
+    [email] => k8.example@yahoo.com
+    [contact_number] => 09125663432
+    [adult_count] => 19
+    [kid_count] => 12
+    [tour_type] => day_tour
+    [special_requests] => 
+)
+
+[2025-03-25 14:32:16] Missing required field: guest_adult
+[2025-03-25 14:32:16] All POST data: Array
+(
+    [check_in] => 2025-03-26
+    [check_out] => 2025-03-27
+    [first_name] => Ike Diezel
+    [last_name] => Narciso
+    [email] => k8.example@yahoo.com
+    [contact_number] => 09125663432
+    [adult_count] => 19
+    [kid_count] => 12
+    [tour_type] => day_tour
+    [special_requests] => 
+)
+
+[2025-03-25 14:32:16] Reservation preparation error: Missing required field: guest_adult
+[2025-03-25 15:57:17] Incoming POST Data: Array
+(
+    [check_in] => 2025-03-26
+    [check_out] => 2025-03-27
+    [first_name] => Ike Diezel
+    [last_name] => Reyes
+    [email] => ayk.exam@yahoo.com
+    [contact_number] => 09374583254
+    [adult_count] => 17
+    [kid_count] => 12
+    [tour_type] => night_tour
+    [special_requests] => Breakfast
+)
+
+[2025-03-25 15:57:17] Missing required field: guest_adult
+[2025-03-25 15:57:17] All POST data: Array
+(
+    [check_in] => 2025-03-26
+    [check_out] => 2025-03-27
+    [first_name] => Ike Diezel
+    [last_name] => Reyes
+    [email] => ayk.exam@yahoo.com
+    [contact_number] => 09374583254
+    [adult_count] => 17
+    [kid_count] => 12
+    [tour_type] => night_tour
+    [special_requests] => Breakfast
+)
+
+[2025-03-25 15:57:17] Reservation preparation error: Missing required field: guest_adult
+[2025-03-25 16:22:07] Incoming POST Data: Array
+(
+    [check_in] => 2025-03-26
+    [check_out] => 2025-03-27
+    [first_name] => Cerike
+    [last_name] => Caceres
+    [email] => ayk@yahoo.com
+    [contact_number] => 09485537455
+    [adult_count] => 22
+    [kid_count] => 12
+    [tour_type] => whole_day
+    [special_requests] => 
+)
+
+[2025-03-25 16:22:07] Missing required field: guest_adult
+[2025-03-25 16:22:07] All POST data: Array
+(
+    [check_in] => 2025-03-26
+    [check_out] => 2025-03-27
+    [first_name] => Cerike
+    [last_name] => Caceres
+    [email] => ayk@yahoo.com
+    [contact_number] => 09485537455
+    [adult_count] => 22
+    [kid_count] => 12
+    [tour_type] => whole_day
+    [special_requests] => 
+)
+
+[2025-03-25 16:22:07] Reservation preparation error: Missing required field: guest_adult
+[2025-03-25 16:24:13] Incoming POST Data: Array
+(
+    [check_in] => 2025-03-26
+    [check_out] => 2025-03-27
+    [first_name] => Keith
+    [last_name] => Caceres
+    [email] => ayk.ex@yahoo.com
+    [contact_number] => 09125663432
+    [adult_count] => 22
+    [kid_count] => 12
+    [tour_type] => whole_day
+    [special_requests] => 
+)
+
+[2025-03-25 16:24:13] Missing required field: guest_adult
+[2025-03-25 16:24:13] All POST data: Array
+(
+    [check_in] => 2025-03-26
+    [check_out] => 2025-03-27
+    [first_name] => Keith
+    [last_name] => Caceres
+    [email] => ayk.ex@yahoo.com
+    [contact_number] => 09125663432
+    [adult_count] => 22
+    [kid_count] => 12
+    [tour_type] => whole_day
+    [special_requests] => 
+)
+
+[2025-03-25 16:24:13] Reservation preparation error: Missing required field: guest_adult
+[2025-03-25 16:28:47] Incoming POST Data: Array
+(
+    [check_in] => 2025-03-26
+    [check_out] => 2025-03-27
+    [first_name] => Keith
+    [last_name] => Caceres
+    [email] => ikediezel.samosa@gmail.com
+    [contact_number] => 09374583254
+    [adult_count] => 22
+    [kid_count] => 11
+    [tour_type] => whole_day
+    [special_requests] => 
+)
+
+[2025-03-25 16:28:47] Missing required field: guest_adult
+[2025-03-25 16:28:47] All POST data: Array
+(
+    [check_in] => 2025-03-26
+    [check_out] => 2025-03-27
+    [first_name] => Keith
+    [last_name] => Caceres
+    [email] => ikediezel.samosa@gmail.com
+    [contact_number] => 09374583254
+    [adult_count] => 22
+    [kid_count] => 11
+    [tour_type] => whole_day
+    [special_requests] => 
+)
+
+[2025-03-25 16:28:47] Reservation preparation error: Missing required field: guest_adult
+[2025-03-25 16:32:47] Incoming POST Data: Array
+(
+    [check_in] => 2025-03-26
+    [check_out] => 2025-03-27
+    [first_name] => Ike Diezel
+    [last_name] => Samosa
+    [email] => samosa.ikediezel@ue.edu.ph
+    [contact_number] => 09125663432
+    [adult_count] => 12
+    [kid_count] => 
+    [tour_type] => whole_day
+    [special_requests] => 
+)
+
+[2025-03-25 16:32:47] Missing required field: guest_adult
+[2025-03-25 16:32:47] All POST data: Array
+(
+    [check_in] => 2025-03-26
+    [check_out] => 2025-03-27
+    [first_name] => Ike Diezel
+    [last_name] => Samosa
+    [email] => samosa.ikediezel@ue.edu.ph
+    [contact_number] => 09125663432
+    [adult_count] => 12
+    [kid_count] => 
+    [tour_type] => whole_day
+    [special_requests] => 
+)
+
+[2025-03-25 16:32:47] Reservation preparation error: Missing required field: guest_adult
+[2025-03-26 16:26:06] Incoming POST Data: Array
+(
+    [check_in] => 2025-03-27
+    [check_out] => 2025-03-28
+    [first_name] => Samosa
+    [last_name] => Reyes
+    [email] => samosa.example@yahoo.com
+    [contact_number] => 09124563421
+    [adult_count] => 16
+    [kid_count] => 10
+    [tour_type] => whole_day
+    [special_requests] => 
+)
+
+[2025-03-26 16:26:06] Missing required field: guest_adult
+[2025-03-26 16:26:06] All POST data: Array
+(
+    [check_in] => 2025-03-27
+    [check_out] => 2025-03-28
+    [first_name] => Samosa
+    [last_name] => Reyes
+    [email] => samosa.example@yahoo.com
+    [contact_number] => 09124563421
+    [adult_count] => 16
+    [kid_count] => 10
+    [tour_type] => whole_day
+    [special_requests] => 
+)
+
+[2025-03-26 16:26:06] Reservation preparation error: Missing required field: guest_adult
+[2025-03-26 16:34:27] Incoming POST Data: Array
+(
+    [check_in] => 2025-03-27
+    [check_out] => 2025-03-28
+    [first_name] => Keith
+    [last_name] => Samosa
+    [email] => k8.example@yahoo.com
+    [contact_number] => 09876524355
+    [adult_count] => 19
+    [kid_count] => 8
+    [tour_type] => whole_day
+    [special_requests] => 
+)
+
+[2025-03-26 16:34:27] Reservation error: Unknown column 'adult_count' in 'field list'
+[2025-03-26 16:35:09] Incoming POST Data: Array
+(
+    [check_in] => 2025-03-27
+    [check_out] => 2025-03-28
+    [first_name] => Keith
+    [last_name] => Samosa
+    [email] => k8.example@yahoo.com
+    [contact_number] => 09876524355
+    [adult_count] => 18
+    [kid_count] => 8
+    [tour_type] => whole_day
+    [special_requests] => 
+)
+
+[2025-03-26 16:35:09] Reservation error: Unknown column 'adult_count' in 'field list'
+[2025-03-27 18:40:38] Incoming POST Data: Array
+(
+    [check_in] => 2025-03-29
+    [check_out] => 2025-03-30
+    [first_name] => Keith
+    [last_name] => Reyes
+    [email] => ayk@yahoo.com
+    [contact_number] => 09374583254
+    [adult_count] => 29
+    [kid_count] => 12
+    [tour_type] => whole_day
+    [extra_mattress] => 1
+    [extra_pillow] => 1
+    [extra_blanket] => 1
+    [special_requests] => 
+)
+
+[2025-03-27 18:40:39] Exception: Unknown column 'adult_count' in 'field list'
+[2025-03-27 18:40:39] Trace: #0 D:\xampp\htdocs\reservation-billing\guest_reservation_process.php(89): mysqli->prepare('INSERT INTO res...')
+#1 {main}
+[2025-03-27 18:40:39] Additional Context: Array
+(
+    [POST] => Array
+        (
+            [check_in] => 
+            [check_out] => 
+            [first_name] => 
+            [last_name] => 
+            [email] => 
+            [contact_number] => 
+            [adult_count] => 
+            [kid_count] => 
+            [tour_type] => 
+            [extra_mattress] => 1
+            [extra_pillow] => 1
+            [extra_blanket] => 1
+            [special_requests] => 
+        )
+
+    [Errors] => Array
+        (
+        )
+
+)
+
+[2025-03-27 18:50:09] Incoming POST Data: Array
+(
+    [check_in] => 2025-03-29
+    [check_out] => 2025-03-30
+    [first_name] => Keith
+    [last_name] => Samosa
+    [email] => ayk@yahoo.com
+    [contact_number] => 09876524355
+    [adult_count] => 29
+    [kid_count] => 12
+    [tour_type] => whole_day
+    [extra_mattress] => 1
+    [extra_pillow] => 1
+    [extra_blanket] => 1
+    [special_requests] => 
+)
+
+[2025-03-27 18:50:09] Exception: Unknown column 'adult_count' in 'field list'
+[2025-03-27 18:50:09] Trace: #0 D:\xampp\htdocs\reservation-billing\guest_reservation_process.php(89): mysqli->prepare('INSERT INTO res...')
+#1 {main}
+[2025-03-27 18:50:09] Additional Context: Array
+(
+    [POST] => Array
+        (
+            [check_in] => 
+            [check_out] => 
+            [first_name] => 
+            [last_name] => 
+            [email] => 
+            [contact_number] => 
+            [adult_count] => 
+            [kid_count] => 
+            [tour_type] => 
+            [extra_mattress] => 1
+            [extra_pillow] => 1
+            [extra_blanket] => 1
+            [special_requests] => 
+        )
+
+    [Errors] => Array
+        (
+        )
+
+)
+
+[2025-03-27 18:51:03] Incoming POST Data: Array
+(
+    [check_in] => 2025-03-29
+    [check_out] => 2025-03-30
+    [first_name] => Keith
+    [last_name] => Samosa
+    [email] => ayk.ex@yahoo.com
+    [contact_number] => 09485537455
+    [adult_count] => 29
+    [kid_count] => 11
+    [tour_type] => whole_day
+    [extra_mattress] => 1
+    [extra_pillow] => 1
+    [extra_blanket] => 1
+    [special_requests] => 
+)
+
+[2025-03-27 18:51:03] Exception: Unknown column 'adult_count' in 'field list'
+[2025-03-27 18:51:03] Trace: #0 D:\xampp\htdocs\reservation-billing\guest_reservation_process.php(89): mysqli->prepare('INSERT INTO res...')
+#1 {main}
+[2025-03-27 18:51:03] Additional Context: Array
+(
+    [POST] => Array
+        (
+            [check_in] => 
+            [check_out] => 
+            [first_name] => 
+            [last_name] => 
+            [email] => 
+            [contact_number] => 
+            [adult_count] => 
+            [kid_count] => 
+            [tour_type] => 
+            [extra_mattress] => 1
+            [extra_pillow] => 1
+            [extra_blanket] => 1
+            [special_requests] => 
+        )
+
+    [Errors] => Array
+        (
+        )
+
+)
+
+[2025-03-27 18:52:00] Incoming POST Data: Array
+(
+    [check_in] => 2025-03-29
+    [check_out] => 2025-03-30
+    [first_name] => Ike Diezel
+    [last_name] => Portugal
+    [email] => ayk.example@yahoo.com
+    [contact_number] => 09374583254
+    [adult_count] => 12
+    [kid_count] => 16
+    [tour_type] => whole_day
+    [extra_mattress] => 1
+    [extra_pillow] => 1
+    [extra_blanket] => 1
+    [special_requests] => 
+)
+
+[2025-03-27 18:52:00] Exception: Unknown column 'adult_count' in 'field list'
+[2025-03-27 18:52:00] Trace: #0 D:\xampp\htdocs\reservation-billing\guest_reservation_process.php(89): mysqli->prepare('INSERT INTO res...')
+#1 {main}
+[2025-03-27 18:52:00] Additional Context: Array
+(
+    [POST] => Array
+        (
+            [check_in] => 
+            [check_out] => 
+            [first_name] => 
+            [last_name] => 
+            [email] => 
+            [contact_number] => 
+            [adult_count] => 
+            [kid_count] => 
+            [tour_type] => 
+            [extra_mattress] => 1
+            [extra_pillow] => 1
+            [extra_blanket] => 1
+            [special_requests] => 
+        )
+
+    [Errors] => Array
+        (
+        )
+
+)
+
+[2025-03-27 18:56:41] Incoming POST Data: Array
+(
+    [check_in] => 2025-03-29
+    [check_out] => 2025-03-30
+    [first_name] => Keith
+    [last_name] => Samosa
+    [email] => ayk.ex@yahoo.com
+    [contact_number] => 09876524355
+    [adult_count] => 29
+    [kid_count] => 11
+    [tour_type] => night_tour
+    [extra_mattress] => 2
+    [extra_pillow] => 1
+    [extra_blanket] => 1
+    [special_requests] => 
+)
+
+[2025-03-27 18:56:41] Exception: Unknown column 'adult_count' in 'field list'
+[2025-03-27 18:56:41] Trace: #0 D:\xampp\htdocs\reservation-billing\guest_reservation_process.php(89): mysqli->prepare('INSERT INTO res...')
+#1 {main}
+[2025-03-27 18:56:41] Additional Context: Array
+(
+    [POST] => Array
+        (
+            [check_in] => 
+            [check_out] => 
+            [first_name] => 
+            [last_name] => 
+            [email] => 
+            [contact_number] => 
+            [adult_count] => 
+            [kid_count] => 
+            [tour_type] => 
+            [extra_mattress] => 2
+            [extra_pillow] => 1
+            [extra_blanket] => 1
+            [special_requests] => 
+        )
+
+    [Errors] => Array
+        (
+        )
+
+)
+
+[2025-03-27 19:01:21] Incoming POST Data: Array
+(
+    [check_in] => 2025-03-29
+    [check_out] => 2025-03-30
+    [first_name] => Keith
+    [last_name] => Samosa
+    [email] => ayk@yahoo.com
+    [contact_number] => 09374583254
+    [adult_count] => 12
+    [kid_count] => 12
+    [tour_type] => whole_day
+    [extra_mattress] => 1
+    [extra_pillow] => 1
+    [extra_blanket] => 1
+    [special_requests] => 
+)
+
+[2025-03-27 19:01:21] Exception: Unknown column 'adult_count' in 'field list'
+[2025-03-27 19:01:21] Trace: #0 D:\xampp\htdocs\reservation-billing\guest_reservation_process.php(142): mysqli->prepare('INSERT INTO res...')
+#1 {main}
+[2025-03-27 19:01:21] Additional Context: Array
+(
+    [POST] => Array
+        (
+            [check_in] => 2025-03-29
+            [check_out] => 2025-03-30
+            [first_name] => Keith
+            [last_name] => Samosa
+            [email] => ayk@yahoo.com
+            [contact_number] => 09374583254
+            [adult_count] => 12
+            [kid_count] => 12
+            [tour_type] => whole_day
+            [extra_mattress] => 1
+            [extra_pillow] => 1
+            [extra_blanket] => 1
+            [special_requests] => 
+        )
+
+    [Errors] => Array
+        (
+        )
+
+)
+
+[2025-03-27 19:02:49] Incoming POST Data: Array
+(
+    [check_in] => 2025-03-29
+    [check_out] => 2025-03-30
+    [first_name] => Ike Diezel
+    [last_name] => Samosa
+    [email] => ayk@yahoo.com
+    [contact_number] => 09374583254
+    [adult_count] => 12
+    [kid_count] => 12
+    [tour_type] => whole_day
+    [extra_mattress] => 0
+    [extra_pillow] => 0
+    [extra_blanket] => 0
+    [special_requests] => 
+)
+
+[2025-03-27 19:02:49] Exception: Unknown column 'adult_count' in 'field list'
+[2025-03-27 19:02:49] Trace: #0 D:\xampp\htdocs\reservation-billing\guest_reservation_process.php(142): mysqli->prepare('INSERT INTO res...')
+#1 {main}
+[2025-03-27 19:02:49] Additional Context: Array
+(
+    [POST] => Array
+        (
+            [check_in] => 2025-03-29
+            [check_out] => 2025-03-30
+            [first_name] => Ike Diezel
+            [last_name] => Samosa
+            [email] => ayk@yahoo.com
+            [contact_number] => 09374583254
+            [adult_count] => 12
+            [kid_count] => 12
+            [tour_type] => whole_day
+            [extra_mattress] => 0
+            [extra_pillow] => 0
+            [extra_blanket] => 0
+            [special_requests] => 
+        )
+
+    [Errors] => Array
+        (
+        )
+
+)
+
+[2025-03-27 19:11:14] Incoming POST Data: Array
+(
+    [check_in] => 2025-03-29
+    [check_out] => 2025-03-30
+    [first_name] => Keith
+    [last_name] => Samosa
+    [email] => ayk@yahoo.com
+    [contact_number] => 09125663432
+    [adult_count] => 12
+    [kid_count] => 12
+    [tour_type] => whole_day
+    [extra_mattress] => 1
+    [extra_pillow] => 1
+    [extra_blanket] => 1
+    [special_requests] => 
+)
+
+[2025-03-27 19:11:14] Exception: Unknown column 'extra_mattress' in 'field list'
+[2025-03-27 19:11:14] Trace: #0 D:\xampp\htdocs\reservation-billing\guest_reservation_process.php(142): mysqli->prepare('INSERT INTO gue...')
+#1 {main}
+[2025-03-27 19:11:14] Additional Context: Array
+(
+    [POST] => Array
+        (
+            [check_in] => 2025-03-29
+            [check_out] => 2025-03-30
+            [first_name] => Keith
+            [last_name] => Samosa
+            [email] => ayk@yahoo.com
+            [contact_number] => 09125663432
+            [adult_count] => 12
+            [kid_count] => 12
+            [tour_type] => whole_day
+            [extra_mattress] => 1
+            [extra_pillow] => 1
+            [extra_blanket] => 1
+            [special_requests] => 
+        )
+
+    [Errors] => Array
+        (
+        )
+
+)
+
+[2025-03-27 19:23:24] Incoming POST Data: Array
+(
+    [check_in] => 2025-03-29
+    [check_out] => 2025-03-30
+    [first_name] => Keith
+    [last_name] => Samosa
+    [email] => ayk.example@yahoo.com
+    [contact_number] => 09374583254
+    [adult_count] => 12
+    [kid_count] => 12
+    [tour_type] => whole_day
+    [extra_mattress] => 1
+    [extra_pillow] => 1
+    [extra_blanket] => 1
+    [special_requests] => 
+)
+
+[2025-03-27 19:23:24] Exception: Unknown column 'extra_mattress' in 'field list'
+[2025-03-27 19:23:24] Trace: #0 D:\xampp\htdocs\reservation-billing\guest_reservation_process.php(231): mysqli->prepare('INSERT INTO gue...')
+#1 {main}
+[2025-03-27 19:23:24] Additional Context: Array
+(
+    [POST] => Array
+        (
+            [check_in] => 2025-03-29
+            [check_out] => 2025-03-30
+            [first_name] => Keith
+            [last_name] => Samosa
+            [email] => ayk.example@yahoo.com
+            [contact_number] => 09374583254
+            [adult_count] => 12
+            [kid_count] => 12
+            [tour_type] => whole_day
+            [extra_mattress] => 1
+            [extra_pillow] => 1
+            [extra_blanket] => 1
+            [special_requests] => 
+        )
+
+    [Errors] => Array
+        (
+        )
+
+)
+
+[2025-03-27 19:25:46] Incoming POST Data: Array
+(
+    [check_in] => 2025-03-29
+    [check_out] => 2025-03-30
+    [first_name] => Keith
+    [last_name] => Samosa
+    [email] => ayk.example@yahoo.com
+    [contact_number] => 09124563421
+    [adult_count] => 12
+    [kid_count] => 12
+    [tour_type] => whole_day
+    [extra_mattress] => 1
+    [extra_pillow] => 1
+    [extra_blanket] => 1
+    [special_requests] => 
+)
+
+[2025-03-27 19:27:57] Incoming POST Data: Array
+(
+    [check_in] => 2025-03-29
+    [check_out] => 2025-03-30
+    [first_name] => Keith
+    [last_name] => Samosa
+    [email] => ayk.example@yahoo.com
+    [contact_number] => 09124563421
+    [adult_count] => 12
+    [kid_count] => 12
+    [tour_type] => whole_day
+    [extra_mattress] => 1
+    [extra_pillow] => 1
+    [extra_blanket] => 1
+    [special_requests] => 
+)
+
+[2025-03-27 19:30:05] Incoming POST Data: Array
+(
+    [check_in] => 2025-03-29
+    [check_out] => 2025-03-30
+    [first_name] => Keith
+    [last_name] => Samosa
+    [email] => ayk.example@yahoo.com
+    [contact_number] => 09124563421
+    [adult_count] => 12
+    [kid_count] => 12
+    [tour_type] => whole_day
+    [extra_mattress] => 1
+    [extra_pillow] => 1
+    [extra_blanket] => 1
+    [special_requests] => 
+)
+
+[2025-03-27 19:30:52] Incoming POST Data: Array
+(
+    [check_in] => 2025-03-29
+    [check_out] => 2025-03-30
+    [first_name] => Keith
+    [last_name] => Samosa
+    [email] => ayk@yahoo.com
+    [contact_number] => 09485537455
+    [adult_count] => 14
+    [kid_count] => 14
+    [tour_type] => whole_day
+    [extra_mattress] => 1
+    [extra_pillow] => 1
+    [extra_blanket] => 1
+    [special_requests] => 
+)
+
+[2025-03-27 19:31:09] Incoming POST Data: Array
+(
+    [check_in] => 2025-03-29
+    [check_out] => 2025-03-30
+    [first_name] => Keith
+    [last_name] => Samosa
+    [email] => ayk@yahoo.com
+    [contact_number] => 09485537455
+    [adult_count] => 14
+    [kid_count] => 14
+    [tour_type] => whole_day
+    [extra_mattress] => 1
+    [extra_pillow] => 1
+    [extra_blanket] => 1
+    [special_requests] => 
+)
+
+[2025-03-27 19:34:21] Incoming POST Data: Array
+(
+    [check_in] => 2025-03-29
+    [check_out] => 2025-03-30
+    [first_name] => Keith
+    [last_name] => Samosa
+    [email] => ayk@yahoo.com
+    [contact_number] => 09485537455
+    [adult_count] => 14
+    [kid_count] => 14
+    [tour_type] => whole_day
+    [extra_mattress] => 1
+    [extra_pillow] => 1
+    [extra_blanket] => 1
+    [special_requests] => 
+)
+
+[2025-03-27 19:40:36] Incoming POST Data: Array
+(
+    [check_in] => 2025-03-29
+    [check_out] => 2025-03-30
+    [first_name] => Keith
+    [last_name] => Samosa
+    [email] => ayk@yahoo.com
+    [contact_number] => 09485537455
+    [adult_count] => 14
+    [kid_count] => 14
+    [tour_type] => whole_day
+    [extra_mattress] => 1
+    [extra_pillow] => 1
+    [extra_blanket] => 1
+    [special_requests] => 
+)
+
+[2025-03-27 19:41:44] Incoming POST Data: Array
+(
+    [check_in] => 2025-03-30
+    [check_out] => 2025-03-31
+    [first_name] => Ike
+    [last_name] => Samosa
+    [email] => ayk@yahoo.com
+    [contact_number] => 09485537455
+    [adult_count] => 15
+    [kid_count] => 13
+    [tour_type] => night_tour
+    [extra_mattress] => 2
+    [extra_pillow] => 3
+    [extra_blanket] => 2
+    [special_requests] => Clean the room
+)
+
+[2025-03-27 19:43:18] Incoming POST Data: Array
+(
+    [check_in] => 2025-03-30
+    [check_out] => 2025-03-31
+    [first_name] => Ike
+    [last_name] => Samosa
+    [email] => ayk@yahoo.com
+    [contact_number] => 09485537455
+    [adult_count] => 15
+    [kid_count] => 13
+    [tour_type] => night_tour
+    [extra_mattress] => 2
+    [extra_pillow] => 3
+    [extra_blanket] => 2
+    [special_requests] => Clean the room
+)
+

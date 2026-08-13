@@ -1,0 +1,50 @@
+<?php
+include 'db.php';
+
+// Make sure form is submitted
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Collect POST data
+    $room_id = $_POST['room_id'];
+    $check_in = $_POST['check_in'];
+    $check_out = $_POST['check_out'];
+    $quantity = $_POST['quantity'];
+    $total_price = $_POST['total_price'];
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $contact = $_POST['contact'];
+    $reference = $_POST['reference'];
+
+    // Handle file upload
+    $target_dir = "uploads/";
+    if (!file_exists($target_dir)) {
+        mkdir($target_dir, 0777, true);
+    }
+
+    $file_name = basename($_FILES["payment_proof"]["name"]);
+    $target_file = $target_dir . time() . "_" . $file_name;
+    $upload_ok = move_uploaded_file($_FILES["payment_proof"]["tmp_name"], $target_file);
+
+    if ($upload_ok) {
+        // Insert into database
+        $stmt = $conn->prepare("INSERT INTO reservations (room_id, check_in, check_out, quantity, total_price, name, email, contact, reference, payment_proof, status) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'Pending Confirmation')");
+        $stmt->bind_param("issidsssss", $room_id, $check_in, $check_out, $quantity, $total_price, $name, $email, $contact, $reference, $target_file);
+
+        if ($stmt->execute()) {
+            echo "<h2>Payment Received</h2>";
+            echo "<p>Thank you, $name. Your payment is being processed.</p>";
+            echo "<p><strong>Reference No.:</strong> $reference</p>";
+            echo "<p>Status: <strong>Waiting for Confirmation</strong></p>";
+        } else {
+            echo "Database Error: " . $stmt->error;
+        }
+
+        $stmt->close();
+    } else {
+        echo "Error uploading payment proof.";
+    }
+
+    $conn->close();
+} else {
+    echo "Invalid access.";
+}
+?>
